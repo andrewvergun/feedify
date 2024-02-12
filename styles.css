@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 24px;
+    margin: 10px 5px 10px 30px;
+}
+
+.logo h3 {
+    font-family: 'Poppins', Arial;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0 10px 5px;
+    padding: 0;
+}
+
+.download-button button {
+    background-color: #5E07CE;
+    color: white;
+    margin: 10px 30px 10px 30px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Poppins', Arial;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.description {
+    text-align: center;
+    text-wrap: wrap;
+    width: 60%;
+    margin-top: 75px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Poppins', Arial;
+}
+
+.description h4 {
+    font-size: 36px;
+    margin: 30px 0 10px 0;
+}
+
+.description p {
+    font-size: 23px;
+}
+
+.description-image img {
+    width: 70%;
+    height: auto;
+}
+
+.download {
+    background-color: #1B003D;
+    display: flex;
+}
+.download{
+    background-color: #1B003D;
+    display: flex;
+
+}
+
+.download h2 {
+    font-family: 'Poppins', Arial;
+    color: white;
+    margin-left: 20vw;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+.download a {
+    margin-left: auto;
+    margin-right: 20vw;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+.bn45 {
+    width: 190px;
+}
+
+.contact {
+    background-color: #0F0023;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.contact h2 {
+    font-family: 'Poppins', Arial;
+
+    color: white;
+    
+    margin-top: 125px;
+    margin-bottom: 125px;
+    
+    
+    
+    
+}
+
+.contact a {
+    text-decoration: underline white 4px;
+    
+}
+@media only screen and (max-width: 1024px) {
+    .description {
+        width: 80%;
+    }
+
+    .download h2,
+    .download a,
+    .contact h2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display:flex;
+        align-items: center;
+    }
+    .contact a, .contact-div {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact{
+        
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .download{
+        
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo img {
+        margin: 10px 5px 10px 10px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    /* Adjust styles for mobile devices */
+    .description {
+        width: 95%;
+    }
+    .description h4{
+        font-size: 32px;
+    }
+    .description p{
+        font-size: 19px;
+    }
+
+    .download h2,
+    .download a,
+    .contact h2 {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 75px;
+        margin-bottom: 75px;
+        display:flex;
+        align-items: center;
+        
+    }
+}
